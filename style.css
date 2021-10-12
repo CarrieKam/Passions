@@ -1,0 +1,41 @@
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 2rem;
+    margin: 5%;
+    background-image: url("https://media.giphy.com/media/xT3i0TD5DArdYCxGQE/giphy.gif");
+    background-size: cover;
+}
+
+.rounded-pill {
+    border-radius: 10rem;
+    padding: 6px;;
+}
+
+.pill {
+    align-items: center;
+    padding:2vh;
+}
+
+.bg-violin {
+    background-color:blueviolet;
+}
+
+.bg-coding {
+    background-color:cornflowerblue;
+}
+
+.bg-genshin {
+    background-color:darksalmon;
+}
+
+.bg-anime {
+    background-color:darkcyan;
+}
+
+iframe {
+    padding:3vh;
+}
